@@ -1,0 +1,7 @@
+---
+title: Placeholder
+params:
+  carre: Placeholder
+---
+
+Il n'y a actuellement pas d'épreuve en cours sur le `r params$carre`.

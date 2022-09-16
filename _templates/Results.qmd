@@ -1,0 +1,15 @@
+---
+title: Placeholder
+subtitle: Placeholder
+Epreuve: 0
+order: 0
+params:
+  result_file: result/null.ext
+  result_ongoing: false
+---
+
+::: column-page
+```{r}
+rsvps::event_dr_results(here::here(params$result_file), params$result_ongoing)
+```
+:::

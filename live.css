@@ -1,0 +1,13 @@
+/* css styles */
+
+body {
+  padding-top: 0px !important;
+}
+
+#quarto-header {
+  display: none;
+}
+
+footer {
+  display: none;
+}

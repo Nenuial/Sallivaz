@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.secrets
+/.quarto/
+_site
+www
+actuel
+data
+results

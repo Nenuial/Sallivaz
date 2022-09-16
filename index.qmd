@@ -1,0 +1,11 @@
+---
+title: "Bienvenue"
+listing:
+  contents: results
+  type: table
+  sort-ui: false
+  sort: "order asc"
+  fields: [Epreuve, title]
+---
+
+Vous trouverez sur ce site les résultats pour les épreuves du concours de dressage du manège de La Sallivaz du 24 et 25 septembre.

@@ -1,0 +1,12 @@
+---
+title: Placeholder
+subtitle: Placeholder
+params:
+  result_file: result/null.ext
+---
+
+::: column-page
+```{r}
+rsvps::event_dr_results(here::here(params$result_file), TRUE)
+```
+:::

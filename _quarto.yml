@@ -1,0 +1,39 @@
+project:
+  type: website
+  pre-render:
+    - R/cleanup.R
+    - R/fetch.R
+    - R/setup.R
+  post-render:
+    - R/finish.R
+
+title-block-banner: "images/sallivaz_banner.png"
+title-block-banner-color: "white"
+
+website:
+  title: "CD La Sallivaz 2022"
+  navbar:
+    background: "#155767"
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: actuel/Carré_A.qmd
+  page-footer:
+    left:
+      - text: "EquiEvents"
+    right: 
+      - text: "info@equievents.ch"
+        href: "mailto:info@equievents.ch"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    lang: fr
+    execute:
+      echo: false
+      warning: false
+
+editor: visual
+
